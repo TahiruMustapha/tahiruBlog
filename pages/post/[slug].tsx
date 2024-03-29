@@ -2,7 +2,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import React, { use, useState } from "react";
 import { client, urlFor } from "../../lib/sanity";
-import { Post } from "../../typings";
+import type { Post } from "../../typings";
 import { GetStaticProps } from "next";
 import { PortableText } from "@portabletext/react";
 import urlBuilder from "@sanity/image-url";

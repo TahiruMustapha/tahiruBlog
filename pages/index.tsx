@@ -3,7 +3,7 @@ import BannerBottom from "@/components/BannerBottom";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { client, urlFor } from "../lib/sanity";
-import { Post } from "@/typings";
+import type { Post } from "@/typings";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
