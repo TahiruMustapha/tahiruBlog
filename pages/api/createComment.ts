@@ -5,9 +5,9 @@ import { createClient } from "next-sanity";
 
 
 const client = createClient({
-  projectId: "y5xuhpyc" ,
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID ,
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET ,
-  apiVersion: "2024-03-24",
+  apiVersion: process.env.NEXT_PUBLIC_SANITY_API_VERSION,
   useCdn: true,
   token: process.env.SANITY_API_TOKEN,
 });
