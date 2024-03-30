@@ -6,7 +6,7 @@ import { signIn, signOut, useSession } from "next-auth/react";
 const Header = () => {
   const { data: session } = useSession();
   return (
-    <div className=" h-20 border-b-[1px] border-b-black font-titleFont sticky top-0 bg-red-600 z-50 px-4">
+    <div className=" h-20 border-b-[1px] border-b-black font-titleFont sticky top-0 bg-white z-50 px-4">
       <div className="max-w-7xl h-full mx-auto flex justify-between items-center">
         <Link href="/">
           <div>
