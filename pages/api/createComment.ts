@@ -1,6 +1,4 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-
-import deprecatedCreateClient from "@sanity/client";
 import type { NextApiRequest, NextApiResponse } from "next";
 import { createClient } from "next-sanity";
 
